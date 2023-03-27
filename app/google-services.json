@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "851665300226",
+    "project_id": "controlvet-1f817",
+    "storage_bucket": "controlvet-1f817.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:851665300226:android:3a6f33a70c32c0a505301b",
+        "android_client_info": {
+          "package_name": "com.controlvet.notific"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "851665300226-fnd8godjtq3ppfpg9lhme1l65vur70nb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4059Uzt4FdKHuvgCYWzAUDoYl7TxbMp0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "851665300226-fnd8godjtq3ppfpg9lhme1l65vur70nb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

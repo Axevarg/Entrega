@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/salir"
+        android:title="Cerrar Sesion" />
+    <item
+        android:id="@+id/menuNuevo"
+        android:title="Nuevo Registro" />
+
+    <item
+        android:id="@+id/menuVer"
+        android:title="Ver Registros" />
+
+    <item
+        android:id="@+id/menuAddVacuna"
+        android:title="Aplicar Vacuna" />
+
+    <item
+        android:id="@+id/menuVerVacunas"
+        android:title="Ver Vacunas Aplicadas" />
+
+    <item
+        android:id="@+id/menuAddNoti"
+        android:title="Agregar notificación" />
+
+    <item
+        android:id="@+id/menuBD"
+        android:title="Crear BD (Desarrollador)"
+        android:visible="false" />
+</menu>

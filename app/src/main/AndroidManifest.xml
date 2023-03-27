@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.controlvet.notific"
+    android:versionCode="5"
+    android:versionName="2.0.2">
+
+    <!-- Permisos para la aplicacion -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+
+        android:label="@string/app_name"
+
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ControlVet2">
+        <activity
+            android:name="com.controlvet.notific.verVacunas2"
+            android:exported="false" />
+        <activity
+            android:name="com.controlvet.notific.notific.ImagenArticulo"
+            android:exported="false" />
+        <activity
+            android:name="com.controlvet.notific.notific.CrearArticulo"
+            android:exported="false" />
+        <activity
+            android:name="com.controlvet.notific.notific.PrincipalOtros"
+            android:exported="false" />
+
+        <activity
+            android:name="com.controlvet.notific.VerDatos"
+            android:exported="false" />
+        <activity
+            android:name="com.controlvet.notific.vacunas"
+            android:exported="false" />
+        <activity
+            android:name="com.controlvet.notific.notificaciones"
+            android:exported="false" />
+        <activity
+            android:name="com.controlvet.notific.ver_datos"
+            android:exported="false" />
+        <activity
+            android:name="com.controlvet.notific.agregar_datos"
+            android:exported="false" />
+        <activity
+            android:name="com.controlvet.notific.MainActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ControlVet" />
+        <activity
+            android:name="com.controlvet.notific.registrarse"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ControlVet" />
+        <activity
+            android:name="com.controlvet.notific.Login"
+            android:screenOrientation="portrait"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
